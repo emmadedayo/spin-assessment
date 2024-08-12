@@ -1,0 +1,39 @@
+# Ignore node_modules directories
+node_modules
+**/node_modules
+
+# Ignore composer vendor directory
+vendor
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs and cache
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+
+# Ignore IDE and OS specific files
+.idea
+*.swp
+*.swo
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore test and build directories
+tests
+build
+
+# Ignore Docker files and configurations (if not needed)
+docker-compose.override.yml
+Dockerfile
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
